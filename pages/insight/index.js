@@ -1,20 +1,18 @@
 import Footer from '@/Components/Footer'
 import Navbar from '@/Components/Navbar'
-import Hero from '@/Components/home/Hero'
-import OurWork from '@/Components/home/OurWork'
+import Hero from '@/Components/insight/Hero'
+import InsightCard from '@/Components/insight/InsightCard'
 import React from 'react'
 
-const Home = () => {
+const index = () => {
   return (
     <div>
       <Navbar/>
-
       <Hero/>
-      <OurWork/>
-      
+      <InsightCard/>
       <Footer/>
     </div>
   )
 }
 
-export default Home
+export default index
